@@ -4,9 +4,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>auth</artifactId>
-	<name>alex</name>
 	<description>auth</description>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
+	<version>0.0.1.SNAPSHOT</version>
+	<groupId>ro.alex</groupId>
+	<name>Spring Boot Watson Demo</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -89,5 +91,6 @@
        <url>https://dl.bintray.com/ibm-cloud-sdks/ibm-cloud-sdk-repo</url>
     </repository>
   </repositories>
+
 
 </project>
