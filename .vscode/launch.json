@@ -6,13 +6,14 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
         },
         {
             "type": "java",
-            "name": "WebApplication",
+            "name": "WebApplication direct not working !",
             "request": "launch",
             "mainClass": "ro.alex.auth.WebApplication",
             "projectName": "auth"
